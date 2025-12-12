@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.header-container {
+    display: flex;
+    border: 2px solid yellow;
+    background-color: #1F2937;
+    padding-left: 128px;
+    padding-bottom: 64px;
+    padding-right: 128px;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 64px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid wheat;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    align-items: flex-start;
+    border: 2px solid yellow;
+}
+.header-container .header-content .intro{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid brown;
+    align-items: center;
+}
+.header-container .header-content .intro .sign-up{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border-width: 0;
+}
+.header-content .intro .start{
+    font-size: 64px;
+    border: 2px solid red;
+    font-weight:bold;
+    margin: 0;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.footer {
+    margin-top: auto;
+}
+
+.logo {
+    display: flex;
+    border: 2px solid green;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+
+}
+.middle-container .photos .photo-item img{
+    width: 200px;
+    height: auto;
+}
+.header-container .header-content img{
+    width: 280px;
+    height: auto;
+}
