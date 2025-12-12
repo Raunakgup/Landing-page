@@ -13,7 +13,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    color: aliceblue;
+    color: #F9FAF8;
 }
 .header-container {
     display: flex;
@@ -54,7 +54,7 @@ body {
     border-width: 0;
 }
 .header-content .intro .start{
-    font-size: 64px;
+    font-size: 48px;
     border: 2px solid red;
     font-weight:bold;
     margin: 0;
@@ -90,8 +90,34 @@ ul{
 .middle-container .photos .photo-item img{
     width: 200px;
     height: auto;
+    border: 2px solid blue;
+    border-radius: 8px;
 }
 .header-container .header-content img{
-    width: 280px;
+    width: 250px;
     height: auto;
+}
+.middle-container, .quote-container{
+    color: black;
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-container .photos{
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+    gap: 64px;
+}
+.middle-container .photos .photo-item{
+    width: 200px;
+}
+
+.middle-container .large-font{
+    font-size: 32px;
+}
+.bold{
+    font-weight: bold;
 }
