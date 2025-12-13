@@ -35,8 +35,8 @@ body {
 .header-content{
     display: flex;
     justify-content: space-between;
-    gap: 500px;
-    align-items: flex-start;
+    gap: 20px;
+    align-items: center;
     border: 2px solid yellow;
 }
 .header-container .header-content .intro{
@@ -110,9 +110,11 @@ ul{
     justify-content: center;
     border: 2px solid green;
     gap: 64px;
+    flex-wrap: wrap;
 }
 .middle-container .photos .photo-item{
     width: 200px;
+    text-align: center;
 }
 
 .middle-container .large-font{
@@ -120,4 +122,25 @@ ul{
 }
 .bold{
     font-weight: bold;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 20px;
+
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    width: 400px;
+    margin: 0;
+    color: #1F2937;
+    font-weight: 300;
+}
+.quote-speaker{
+    width: 380px;
+    display: flex;
+    justify-content: flex-end;
 }
